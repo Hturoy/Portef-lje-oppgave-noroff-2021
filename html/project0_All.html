@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Projects</title>
     <meta name="description" content="####">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <!-- This site links to all of my projects  -->
@@ -13,8 +14,25 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="navbar">
 
+            <a href="javascript:void(0)" class="burger-ikon" onclick="burgerMeny()">
+                <img class="burgerIkon" src="/media/Icons/burgermenu.svg" alt="Hamburger Meny">
+                </a>
+
+            <img class="logo" src="/media/Icons/Logo2(s).svg" alt="Logo">
+
+            <div class="burger-container--links">
+               <div class="link-button"> <a href="#">Home</a></div>
+               <div class="link-button"> <a href="#">About me</a></div>
+               <div class="link-button"> <a href="#">projects</a></div>
+            </div>
+
+            <div class="desktop-container--links">
+                <a href="#">Home</a>
+                <a href="#">About me</a>
+                <a href="#">projects</a>
+            </div>
         </nav>
     </header>
 
@@ -29,6 +47,8 @@
     <footer>
 
     </footer>
+
+    <script src="/javascript/Burgermeny.js"></script>
 </body>
 
 

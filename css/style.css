@@ -1,0 +1,241 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: gray;
+}
+
+h3 {
+    margin: 20px;
+}
+
+h4 {
+    margin: 10px;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Burgermeny + Navbar */
+
+.noscroll {
+    height: 100%;
+    overflow: hidden;
+}
+
+.burgerClose {
+    display: none;
+}
+
+.logo{
+    float: right;
+    margin: 15px 20px;
+    height: 43px;
+}
+
+.navbar {
+    overflow: hidden;
+    background: rgb(64,64,64);
+    background: linear-gradient(180deg, rgba(64,64,64,1) 0%, rgba(133,133,133,1) 100%);
+    position: relative;
+}
+
+.burger-container--links {
+        display: none;
+        text-align: center;
+        height: 100vh;
+        overflow: hidden;
+}
+
+.burger-container--links2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.burger-container--links a {
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+}
+
+.burgerIkon {
+    margin: 20px;
+}
+
+.burgerClose {
+    margin: 20px;
+}
+
+
+.link-button {
+    padding: 5px;
+    width: 140px;
+    margin: 30px auto;
+    border-radius: 13px;
+    background-color: rgb(94, 23, 23);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Home page style */
+.home-container {
+    background-color: #858585;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.home-header {
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    padding-top: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.home-container2 {
+    background-color: #9F9F9F;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.home-img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.home-img2{
+    height: 150px;
+}
+
+
+
+.home-container--img {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+.home-container--button {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.home-button {
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(94, 23, 23);
+    border-radius: 13px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Posts */
+
+.home-container--posts {
+    text-align: center;
+}
+
+.home-content--posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.postImg {
+    width: 200px;
+    border-radius: 10%;
+}
+
+.blog-Container--Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.blog-Container--Post a {
+    color: white;
+}
+
+.post-button {
+    padding: 5px;
+    width: 140px;
+    margin: 10px auto 30px auto;
+    border-radius: 13px;
+    background-color: rgb(94, 23, 23);
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 33%;
+    height: 30px;
+    text-align: center;
+}
+
+
+.footer-container--icons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 33%;
+}
+
+.footer-icon {
+    width: 30px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* mediaqs */
+
+@media screen and (min-width: 1024px) {
+
+    .burger-ikon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .desktop-container--links {
+        display: none;
+    }
+
+}

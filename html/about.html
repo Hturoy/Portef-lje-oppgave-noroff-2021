@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <!-- Should resemble a Modern CV (using HTML/CSS/JS)
@@ -13,8 +14,25 @@ Remember links to LinkedIn and GitHub profiles
 <body>
 
     <header>
-        <nav>
+        <nav class="navbar">
 
+            <a href="javascript:void(0)" class="burger-ikon" onclick="burgerMeny()">
+                <img class="burgerIkon" src="/media/Icons/burgermenu.svg" alt="Hamburger Meny">
+                </a>
+
+            <img class="logo" src="/media/Icons/Logo2(s).svg" alt="Logo">
+
+            <div class="burger-container--links">
+               <div class="link-button"> <a href="#">Home</a></div>
+               <div class="link-button"> <a href="#">About me</a></div>
+               <div class="link-button"> <a href="#">projects</a></div>
+            </div>
+
+            <div class="desktop-container--links">
+                <a href="#">Home</a>
+                <a href="#">About me</a>
+                <a href="#">projects</a>
+            </div>
         </nav>
     </header>
 
@@ -29,6 +47,8 @@ Remember links to LinkedIn and GitHub profiles
     <footer>
 
     </footer>
+
+    <script src="/javascript/Burgermeny.js"></script>
 </body>
 
 
