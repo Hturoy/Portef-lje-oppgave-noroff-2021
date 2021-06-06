@@ -3,12 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 
-}
-
-body {
-    background-color: gray;
 }
 
 h3 {
@@ -18,6 +15,29 @@ h3 {
 h4 {
     margin: 10px;
 }
+
+.spacer {
+    height: 220px;
+    background-color: black;
+
+}
+
+.spacer2{
+    height: 100px;
+    background-color: black;
+}
+
+main {
+    background-color: black;
+}
+
+.here {
+    border: solid black 2px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+
 /* ------------------------------------------------------------------------------------------------------------------- */
 /* Burgermeny + Navbar */
 
@@ -38,8 +58,8 @@ h4 {
 
 .navbar {
     overflow: hidden;
-    background: rgb(64,64,64);
-    background: linear-gradient(180deg, rgba(64,64,64,1) 0%, rgba(133,133,133,1) 100%);
+    background: rgb(13,13,13);
+    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(64,1,1,1) 92%);
     position: relative;
 }
 
@@ -84,11 +104,27 @@ h4 {
     background-color: rgb(94, 23, 23);
 }
 
+.desktop-container--links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 27.5px;
+    margin-left: 100px;
+}
+
+.desktop-container--links a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 /* Home page style */
 .home-container {
-    background-color: #858585;
+    background: rgb(64,1,1);
+    background: linear-gradient(180deg, rgba(64,1,1,1) 52%, rgba(0,0,0,1) 100%);
     padding: 20px;
     font-size: 18px;
 }
@@ -99,10 +135,38 @@ h4 {
     padding-top: 20px;
 }
 
+.home-p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-wrap {
+    width: 75%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+}
+
+.home-background {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-container--background {
+    display: flex;
+    justify-content: center;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 .home-container2 {
-    background-color: #9F9F9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(0, 0, 0);
     padding: 20px;
     font-size: 18px;
 }
@@ -136,7 +200,7 @@ h4 {
     font-size: 15px;
     color: white;
     padding: 10px;
-    background-color: rgb(94, 23, 23);
+    background-color: #400101;
     border-radius: 13px;
 }
 
@@ -145,6 +209,7 @@ h4 {
 
 .home-container--posts {
     text-align: center;
+    background-color: black;
 }
 
 .home-content--posts {
@@ -173,11 +238,12 @@ h4 {
 }
 
 .post-button {
-    padding: 5px;
-    width: 140px;
-    margin: 10px auto 30px auto;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: #400101;
     border-radius: 13px;
-    background-color: rgb(94, 23, 23);
+    margin: 20px;
 }
 
 
@@ -188,6 +254,9 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(64,1,1,1) 33%);
+    height: 100px;
 }
 
 .footer-content {
@@ -230,12 +299,30 @@ h4 {
     .burger-ikon {
         display: none;
     }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .home-content--posts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .blog-Container--Post {
+        margin: 0 100px;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
 
     .desktop-container--links {
         display: none;
     }
+
+
 
 }

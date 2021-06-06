@@ -11,7 +11,6 @@ listPosts = (posts) => {
             <h4>${i.title.rendered}</h4>
             <img class="postImg" src="${i._embedded["wp:featuredmedia"][0].source_url}" "alt = "${i._embedded["wp:featuredmedia"][0].alt_text}"></img>
             <a href="#${i.id}" class="post-button" >Read More</a>
-            <hr>
             
         </div>
         `
