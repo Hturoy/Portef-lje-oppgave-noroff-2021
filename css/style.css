@@ -164,6 +164,7 @@ main {
     margin-right: auto;
     border-bottom-left-radius: 75%;
     border-bottom-right-radius: 75%;
+    max-height: 310,5px;
 }
 
 .home-container--background {
