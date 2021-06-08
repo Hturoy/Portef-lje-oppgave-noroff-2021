@@ -164,12 +164,15 @@ main {
     margin-right: auto;
     border-bottom-left-radius: 75%;
     border-bottom-right-radius: 75%;
-    max-height: 310,5px !important;
 }
 
 .home-container--background {
     display: flex;
     justify-content: center;
+    max-height: 310.5px;
+    max-width: 686px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -455,6 +458,11 @@ main {
     .about-container--bot {
         display: flex;
         margin-top: 100px;
+    }
+
+    .home-container--background {
+        max-height: none;
+        max-width: none;
     }
 
 }
