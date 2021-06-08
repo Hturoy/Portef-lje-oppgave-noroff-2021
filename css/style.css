@@ -27,6 +27,10 @@ h4 {
     background-color: black;
 }
 
+.spacer3 {
+    height: 50px;
+}
+
 main {
     background-color: black;
 }
@@ -238,6 +242,8 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 13px;
     height: 250px;
     background-color: #0D0D0D;
@@ -288,8 +294,127 @@ main {
     margin: 5px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* About page */
+
+.cv-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* top */
+.cv-header{
+    text-align: center;
+    padding: 12px;
+
+}
+
+.about-container--top {
+    display: flex;
+}
+
+.about-content--top {
+    max-width: 50%;
+    width: 212.5px;
+}
+
+.about-content--top1 {
+    max-width: 50%;
+    background-color: #400101;
+    border-right: solid white 2px;
+    
+    border-top-left-radius: 40px;
+}
+
+.cv-h2 {
+    font-size: 20px;
+    padding: 12px 7px 7px 12px;
+    
+}
+
+.cv-h2-info {
+    font-size: 20px;
+    padding: 12px 12px 7px 7px;
+    
+}
+
+.cv-p {
+        font-size: 14px;
+        padding: 12px 7px 7px 12px;
+        max-width: 212.5px;
+}
+
+.cv-p-info {
+    font-size: 14px;
+    padding: 12px 7px 7px 12px;
+    max-width: 212.5px;
+    
+}
+
+.cv-icon {
+    margin: 2px;
+    margin-top: 30px;
+    width: 30px;
+    margin-left: 3px;
+}
+
+.cv-mail {
+    margin: 7px;
+    text-decoration: underline solid 2px;
+}
+
+/* mid */
+
+.about-container--mid {
+    display: flex;
+}
+
+.about-content--mid {
+    max-width: 50%;
+    border-right: solid white 2px;
+    border-top: solid white 2px;
+}
+
+.about-content--mid1 {
+    border-bottom-right-radius: 40px;
+    min-width: 50%;
+    max-width: 50%;
+    background-color: #400101;
+    border-top: solid white 2px;
+    
+}
+
+.cv-list {
+    list-style-type: circle;
+}
+
+.cv-list--item {
+    list-style-type: circle;
+    margin: 5px 0px 5px 40px;
+    max-width: 400px;
+}
+
+/* bot */
 
 
+.h2-education {
+    font-size: 20px;
+    padding: 12px 7px 7px 12px;
+}
+
+.p-education {
+    margin: 20px 0px 20px 39px;
+    max-width: 400px;
+}
+
+.h3-education {
+    margin-left: 37px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -325,6 +450,12 @@ main {
     .blog-Container--Post {
         margin: 0 100px;
     }
+
+    .about-container--bot {
+        display: flex;
+        margin-top: 100px;
+    }
+
 }
 
 @media screen and (max-width: 1023px) {
