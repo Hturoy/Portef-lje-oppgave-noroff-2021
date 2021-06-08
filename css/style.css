@@ -184,6 +184,9 @@ main {
     background: rgb(0, 0, 0);
     padding: 20px;
     font-size: 18px;
+    border-left: solid #400101 2px;
+    border-right: solid #400101 2px;
+    border-radius: 25px;
 }
 
 
@@ -420,8 +423,48 @@ main {
     margin-bottom: 10px;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Project */
 
+.project-header {
+    text-align: center;
+    padding: 20px;
+}
 
+.project-img {
+    display: flex;
+    justify-content: center;
+}
+
+.project-img-1{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.project-img-website {
+    width: 400px;
+    border-radius: 13px;
+}
+
+.container-img--website {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-h2 {
+    margin: 20px;
+}
+
+.project-p {
+    margin: 20px;
+}
+
+.project-h3 {
+    margin-bottom: 0;
+}
 
 
 
