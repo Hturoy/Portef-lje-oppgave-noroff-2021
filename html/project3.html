@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Three</title>
+    <title>Project One</title>
     <meta name="description" content="####">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -18,7 +18,7 @@ project
 
 Link to the project and to the github repo of the project
  -->
-<body>
+<body class="project-body">
 
     <header>
         <nav class="navbar">
@@ -27,32 +27,95 @@ Link to the project and to the github repo of the project
                 <img class="burgerIkon" src="/media/Icons/burgermenu.svg" alt="Hamburger Meny">
                 </a>
 
-            <img class="logo" src="/media/Icons/Logo2(s).svg" alt="Logo">
+                <a href="javascript:void(0)" class="burger-close" onclick="burgerMeny()">
+                    <img class="burgerClose" src="/media/Icons/burgerclose.svg" alt="Hamburger Meny">
+                    </a>
+
+                    <a href="/index.html"><img class="logo" src="/media/Icons/Logo2(s).svg" alt="Logo"></a>
 
             <div class="burger-container--links">
-               <div class="link-button"> <a href="#">Home</a></div>
-               <div class="link-button"> <a href="#">About me</a></div>
-               <div class="link-button"> <a href="#">projects</a></div>
+                <div class="burger-container--links2">
+                    <div class="link-button"> <a  href="/index.html">Home</a></div>
+                    <div class="link-button"> <a href="/html/about.html">About me</a></div>
+
+                </div>
             </div>
 
             <div class="desktop-container--links">
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">projects</a>
+                <a href="/index.html">Home</a>
+                <a href="/html/about.html">About me</a>
+                <a href="#">Projects</a>
             </div>
         </nav>
     </header>
     
 
     <main>
+        <h1 class="project-header">The museum</h1>
+
+        <div class="project-img">
+            <img src="/media/images/bildeavmuseum.jpg" alt="Picture of a museum" class="project-img-1">
+        </div>
+        <div class="spacer3"></div>
+
+        <div class="project-container">
+        
+        <div class="content-container">
+            <div class="project-content">
+                <h2 class="project-h2">The assignment</h2>
+                <p class="project-p">In this assignment we were tasked to make a website for a fictional museum with the target audience being primary and middle school children and families with young children.</p>
+            </div>
+
+            <div class="project-content">
+                <h2 class="project-h2">The process</h2>
+                <p class="project-p">I started the assignment by creating a deisgn in Adobe XD, when i was happy with it i started building the website, in this particular assignment we were only using HTML and CSS.</p>
+            </div>
+        </div>
+
+
+            <div class="spacer3"></div>
+
+            <div class="project-content-change">    
+            <div class="project-changes">
+                <h2 class="project-h2">Changes</h2>
+                
+                <p class="project-p">If i were to update this website i would redo the design, change the colors and font, also i would add more design elements to make the website more interesting to the target audience. <br><br>
+                I would also implement some javascript to make the website more responsive and mobilefriendly, like adding a Hamburger menu when visiting from a phone</p>
+            </div>
+                <div class="container-img--website"><img src="/media/images/museumnettside.png" alt="Picture of the museums website" class="project-img-website"></div>
+               
+            </div>
+           
+            
+
+
+            <div class="project content">
+
+            </div>
+        </div>
+
+
+
 
     </main>
 
 
 
+    <div class="spacer"></div>
     <footer>
+        <div class="footer-container">
 
-    </footer>
+
+            <div class="footer-content"></div>
+            <div class="footer-content"><p>Copyright 2021&#169;</p></div>
+
+
+            <div class="footer-container--icons">
+                <a href="https://www.linkedin.com/in/henrik-tur%C3%B8y-48a76316a/"><img class="footer-icon" src="/media/Icons/Linkedin.svg" alt="LinkedIn Logo"></a>
+                <a href="https://github.com/Hturoy"><img class="footer-icon" src="/media/Icons/Github.svg" alt="Github Logo"></a>
+            </div>
+        </div>
+   </footer>
     
     <script src="/javascript/Burgermeny.js"></script>
 </body>
