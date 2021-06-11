@@ -36,9 +36,9 @@ main {
 }
 
 .here {
-    border: solid black 2px;
+    background-color: rgba(0, 0, 0, 0.445);
     padding: 7px;
-    border-radius: 8px;
+    border-radius: 13px;
 }
 
 .color-bg .p-wrap {
