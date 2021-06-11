@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -44,6 +44,16 @@ main {
 .color-bg .p-wrap {
     background-color: #0D0D0D;
 }
+
+.view-site {
+    font-size: 15px;
+    color: white;
+    padding: 8px;
+    background-color: #400101;
+    border-radius: 13px;
+    margin: 12px;
+}
+
 
 
 
@@ -368,10 +378,7 @@ main {
     margin-left: 3px;
 }
 
-.cv-mail {
-    margin: 7px;
-    text-decoration: underline solid 2px;
-}
+
 
 /* mid */
 
